@@ -22,6 +22,6 @@ const numberDigits = (x) => {
     }
 }
 
-console.log(numberDigits(45));
-console.log(numberDigits(9));
-console.log(numberDigits(-123));
+console.log(numberDigits(45)); // prints Two digits: 45
+console.log(numberDigits(9)); // prints One digit: 9
+console.log(numberDigits(-123)); // prints The number is: -123
